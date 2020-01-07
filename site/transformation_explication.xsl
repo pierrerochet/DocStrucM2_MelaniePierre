@@ -7,8 +7,7 @@
 <xsl:template match="/">
     <HTML>
         <HEAD>
-            <H1>Projet analyse de données</H1>
-            <H2>Sur les données des ventes de jeux vidéos sur la plateforme Steam</H2>
+            <title>Steam Data Analysis</title>            
         </HEAD>
         <BODY>
             <xsl:apply-templates/>
@@ -16,16 +15,20 @@
     </HTML>
 </xsl:template>
 
+<xsl:template match="corps/titre">
+    <H1><xsl:value-of select="."/></H1>
+</xsl:template>
     
+<xsl:template match="corps/sous-titre">
+    <H2><xsl:value-of select="."/></H2>
+</xsl:template>      
 
 <xsl:template match="corps/titre-sup">
-    <H1><xsl:value-of select="."/></H1>
-    <xsl:apply-templates/>
+    <H3><xsl:value-of select="."/></H3>
 </xsl:template>
 
 <xsl:template match="rubrique/titre-rubrique">
-    <H2><xsl:value-of select="."/></H2>
-    <xsl:apply-templates/>
+    <H4><xsl:value-of select="."/></H4>
 </xsl:template>
 
 <xsl:template match="rubrique/contenu">
@@ -37,12 +40,12 @@
 </xsl:template>
     
 <xsl:template match="corps/lien">
-    <a><xsl:apply-templates/></a>
+    <a><xsl:value-of select="."/></a>
 </xsl:template>   
 
 
 <xsl:template match="corps/contenu">
-    <P><xsl:apply-templates/></P>    
+    <P><xsl:value-of select="."/></P>    
 </xsl:template>
     
 </xsl:stylesheet>

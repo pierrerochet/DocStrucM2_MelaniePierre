@@ -2,37 +2,34 @@
 <?xml-stylesheet type="text/xsl" href="transformation_explication.xsl"?>
 
 <racine>
-    <entete>    
-    <titre>Projet analyse de données</titre>
-    <sous-titre>Sur les données des ventes de jeux vidéos sur la plateforme Steam</sous-titre>
-    </entete>
+    
     
     <corps>
+        
+        <titre>Projet analyse de données</titre>
+        <sous-titre>Sur les données des ventes de jeux vidéos sur la plateforme Steam</sous-titre>
+        
         <titre-sup>Présentation du projet</titre-sup>  
-        <contenu>bliblabla</contenu>
+        <contenu>Tous deux séduits par l'idée de travailler sur le jeu vidéo, nous avons choisi de nous intéresser au marché en ligne de ce produit de loisir. En effet, étant donnée la tendance croissante à la dématérialisation des jeux, Steam s'avère être une source actualisée, riche et complète de données sur le marché en ligne du jeu. Nous avons cherché, à travers le traitement, formatage et visualisation des données, à mettre en avant des caractéristiques intéressantes du secteur. </contenu>
         <lien>lien page analyses</lien>
-        <rubrique>
-            <titre-rubrique>Données</titre-rubrique> 
-            <contenu>bliblabla</contenu>
-            <lien>lien kaggle</lien>
-        </rubrique>
         
     <titre-sup>Réalisation technique</titre-sup> 
         <rubrique>
             <titre-rubrique>Données</titre-rubrique>       
-            <contenu>bliblabla</contenu>
+            <contenu>Nos données proviennent du site Kaggle. Il s'agit des données de 27 000 jeux, obtenues grâce aux API de Steam en mai 2019. Elles regroupent les informations des évènements ayant lieu sur la plateforme, et permettent ainsi le recensement des jeux commercialisés, de leurs acheteurs et des évaluations de ces derniers.</contenu>
+            <lien>https://www.kaggle.com/nikdavis/steam-store-games#steam_description_data.csv</lien>
         </rubrique>    
         <rubrique>
             <titre-rubrique>Analyse des données</titre-rubrique> 
-            <contenu>bliblabla</contenu>
+            <contenu>Grâce aux librairies pandas, matplotlib et mpld3, nous avons pu sélectionner et croiser les informations contenues dans le jeu de données, pour ensuite en faire des graphiques parlants.</contenu>
         </rubrique>
         <rubrique>
             <titre-rubrique>Formatage XML</titre-rubrique> 
-            <contenu>bliblbli</contenu>
+            <contenu>À partir des divers fichiers .csv qui constituent le jeu de données, nous avons effectué un formatage au format XML à partir d'un script Python. Cela nous a permis de sélectionner les informations les plus pertinentes pour notre analyse.</contenu>
         </rubrique>
         <rubrique>
             <titre-rubrique>Transformation XSLT</titre-rubrique> 
-            <contenu>bliblbli</contenu>            
+            <contenu>La page d'accueil du site que vous êtes en train de lire a été réalisée à l'aide d'une feuille XSLT appliquée à un document XML afin de transformer son contenu en format HTML.</contenu>            
         </rubrique>
     
     </corps>
