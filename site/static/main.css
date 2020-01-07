@@ -1,0 +1,293 @@
+
+
+#main-header {
+    background-color: #E7E7E7 ;
+    height: 60px;
+    margin:0;
+    padding: 0;
+    bottom:0;
+
+}
+
+#main-frame {
+}
+
+
+
+#left-frame {
+    top:5%;
+    display:inline-block;
+    position:fixed;
+}
+
+#right-frame {
+    margin-top : 45px;
+    margin-left:280px;
+    padding-right: 20px;
+    left:20px;
+    z-index: -1;
+    
+}
+
+
+
+
+h1, h2, h3, h4, #menu li a, a, p {
+    color: #646567;
+}
+
+html {
+    font-family: sans-serif;
+    padding:0px;
+    margin:0;
+
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    width: 150px;
+}
+
+.menu li a:hover{
+    font-weight: bold;
+    border-left:2px solid;
+}
+
+
+
+th, td, caption {
+    padding:10px;
+    
+}
+
+hr {
+    height:1px;
+    color: #afafaf;
+    background-color: #afafaf;
+    width: 100px;
+    border: none;
+    margin: 0; /* Firefox... */
+	text-align:left; 
+}
+
+table {
+    margin-top:30px;
+    border-spacing: 0;
+    border:0;
+    text-align: left;
+}
+
+table th {
+    border:0;
+    border-bottom:solid 1px #afafaf;
+    width:180px;
+}
+
+table td {
+    border:0;
+}
+
+table tr td {
+    border-bottom:solid 1px #afafaf;
+}
+
+
+
+header {
+    height: 90px;
+    border-bottom: 1px solid #afafaf;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    left:0px;
+    margin:0px;
+    padding:0px;
+}
+
+.under-header {
+    background-color: white;
+    margin:0;
+    padding:0;
+    top:0;
+    height: 30px;
+}
+
+
+
+.lang {
+    display:inline-block;
+    text-decoration: none;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.lang:hover {
+    font-weight: bold;
+}
+
+#choice-lang {
+    display:inline-block;
+    position:fixed;
+    right:60px;
+    top: 0px;
+}
+
+#head-menu {
+    font-size: 20px;
+}
+
+#frame-main {
+    width: 1000px;;
+    margin:auto;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.date {
+    margin:0;
+    padding:0;
+}
+
+.loc {
+    font-style:italic;
+    color:#AEAFB1;
+    display:block;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+.small-section {
+    padding-bottom:50px;
+}
+
+.fr {
+    font-weight: bold;
+    border: solid 1px;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+ width: 100%;
+}
+
+#contact {
+
+}
+
+#authors {
+    margin-top:20px;
+    padding-top:20px;
+    display:inline-block;
+    border-top : 1px solid #afafaf;
+    
+}
+
+#github-name {
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    float:left;
+    font-style: italic;
+}
+
+img {
+    display:inline-block;
+}
+
+.net {
+    margin:5px;
+}
+
+#marge {
+    margin-left: 3em;
+}
+
+caption {
+    background-color:;
+}
+
+
+
+.form {
+    display:block;
+    padding:0;
+    margin:0;
+    font-weight: bold;
+}
+
+.date-exp {
+    width: 
+}
+
+.description {
+    padding-left:25px;
+}
+
+.sous-section {
+    margin-top:50px;
+}
+
+.year {
+    padding:0;
+    margin:0;
+}
+
+.cp {
+    margin-bottom:0;
+}
+
+.lc {
+    margin:0;
+    color:#6295F4;
+    list-style-type: square;
+}
+
+#maj {
+    font-style: italic;
+    display: absolute;
+    bottom:0;
+    padding:0;
+    margin:0;
+    font-size: 13px; 
+}
+
+.name-author {
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+
+div {
+    
+}
+
+.author {
+    margin:10px;
+    padding:0;
+}
+
+#title-author {
+    margin:0;
+}
+
+.title-large-section {
+    text-align:center;
+}
