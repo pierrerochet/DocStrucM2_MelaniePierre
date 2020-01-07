@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformation_explication.xsl"?>
+
+<racine>
+    <titre>Projet analyse de données</titre>       
+    <sous-titre>Sur les données des ventes de jeux vidéos sur la plateforme Steam</sous-titre>
+    
+    
+    <titre-rubrique>Présentation du projet
+        <contenu>bliblabla
+            <lien>dfhdkjshg</lien>
+        </contenu>    
+        <rubrique>Données
+            <contenu>bliblabla</contenu>
+        </rubrique>
+    </titre-rubrique>
+    <titre-rubrique>Réalisation technique
+        <rubrique>Données
+            <contenu>bliblabla</contenu>
+        </rubrique>    
+        <rubrique>Analyse des données
+            <contenu>bliblabla</contenu>
+        </rubrique>             
+        <rubrique>Formatage XML
+            <contenu>bliblbli</contenu>
+        </rubrique>            
+    <rubrique>Transformation XSLT
+        <contenu>bliblbli</contenu>
+    </rubrique>
+    </titre-rubrique>
+    
+    
+</racine>
