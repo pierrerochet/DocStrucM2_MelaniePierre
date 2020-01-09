@@ -7,10 +7,40 @@
 <xsl:template match="/">
     <HTML>
         <HEAD>
-            <title>Steam Data Analysis</title>            
+            <meta charset="utf-8"></meta>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+            <title>Analyse des données Steam</title>
+            <meta name="description" content="Analyse des données des jeux Steam"></meta>
+            <link rel="stylesheet" href="static/main.css"></link>      
         </HEAD>
         <BODY>
+            
+            <div id="frame-main">
+                <div>
+                    
+                    <div id="left-frame">
+                        <h1 id="head-menu">Accueil</h1>                        
+                        <div id="authors">
+                            <h4 id="title-author">Auteurs :</h4>
+                            <div class="author">
+                                <p class="name-author">Mélanie Lopez Malet</p>
+                            </div>
+                            <div class="author">
+                                <p class="name-author">Pierre Rochet</p>
+                            </div>                            
+                        </div>
+                        <div><p id="maj">Dernière mise à jour le<br/>07/01/2020</p></div>
+                    </div>
+                    
+            <div id="mid-frame">
+                <div id="right-frame">
+                    <div>
             <xsl:apply-templates/>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
         </BODY>
     </HTML>
 </xsl:template>
@@ -21,9 +51,11 @@
     
 <xsl:template match="corps/sous-titre">
     <H2><xsl:value-of select="."/></H2>
+    <br style = "line-height:5px"/>
 </xsl:template>      
 
 <xsl:template match="corps/titre-sup">
+    <br style = "line-height:10px"/>
     <H3><xsl:value-of select="."/></H3>
 </xsl:template>
 
@@ -36,11 +68,12 @@
 </xsl:template>
 
 <xsl:template match="rubrique/lien">
-    <a><xsl:value-of select="."/></a>
+    <a href="https://www.kaggle.com/nikdavis/steam-store-games#steam_description_data.csv"><xsl:value-of select="."/></a>
 </xsl:template>
     
 <xsl:template match="corps/lien">
-    <a><xsl:value-of select="."/></a>
+    <a href="index.html"><xsl:value-of select="."/></a>
+    <br style = "line-height:10px"/>
 </xsl:template>   
 
 
