@@ -11,7 +11,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
             <title>Analyse des données Steam</title>
             <meta name="description" content="Analyse des données des jeux Steam"></meta>
-            <link rel="stylesheet" href="static/main.css"></link>      
+            <link rel="stylesheet" href="../web/css/main.css"></link>      
         </HEAD>
         <BODY>
             
@@ -72,7 +72,7 @@
 </xsl:template>
     
 <xsl:template match="corps/lien">
-    <a href="index.html"><xsl:value-of select="."/></a>
+    <a href="../web/html/resultat.html"><xsl:value-of select="."/></a>
     <br style = "line-height:10px"/>
 </xsl:template>   
 
