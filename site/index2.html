@@ -14,12 +14,12 @@
                     <h1 id="head-menu">Analyse</h1>
                     <ul class="menu">
                         <li><a href="#m2-o1">Aperçu des données</a></li>
-                        <li><a href="#m2-o2">Sorties par année</a></li>
-                        <li><a href="#m2-o3">PLateformes compatibles</a></li>
-                        <li><a href="#m2-o4">Limite d'âge 3</a></li>
-                        <li><a href="#m2-o5">Catégorisation</a></li>
-                        <li><a href="#m2-o6">Editeurs/Distributeurs</a></li>
-                        <li><a href="#m2-o7">Evaluations</a></li>
+                        <li><a href="#m2-o2">Calendrier des sorties</a></li>
+                        <li><a href="#m2-o4">Plateformes compatibles</a></li>
+                        <li><a href="#m2-o5">Limites d'âge</a></li>
+                        <li><a href="#m2-o6">Catégorisations</a></li>
+                        <li><a href="#m2-o8">Editeurs/Distributeurs</a></li>
+                        <li><a href="#m2-o9">Evaluations des jeux</a></li>
                     </ul>
                     <div id="authors">
                         <h4 id="title-author">Auteurs :</h4>
@@ -71,10 +71,20 @@
                                         src="../graphes/jeux_par_date.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o5">
-                                    <h3>Analyse 4</h3>
+                                <div class=small-section id="m2-o3">
+                                    <h3>Sorties de jeux par mois</h3>
                                     <hr/>
-                                    <p><span id='marge'/></p>
+                                    <p><span id='marge'/>Au premier abord, on pourrait penser que le mois le plus propice pour lancer un jeu vidéo est dans le dernier trimestre de l'année, pour préparer les ventes de Noël.
+                                    C'est probablement le cas pour les jeux matériels, qui réjouiront ceux qui les trouveront sous le sapin. En revanche, sur une plateforme en ligne, les enjeux sont autres. </p>
+                                    <p><span id='marge'/>Si le graphique semble quand même refléter la vague
+                                    de lancements hivernaux, la période avec le plus de lancements se situe entre février et avril, ce dernier mois étant le plus représenté. Plusieurs hypothèses sont à envisager:</p>
+                                    <lu>
+                                      <li>Pour ne pas avoir à subir la concurrence plus ardue de la fin d'année, les jeux en ligne préfèrent faire leurs lancements une que fois celle-ci est passée.</li>
+                                      <li>Les lancements avant avril peuvent être dûs à la fin de l'année fiscale au Japon, qui est le 31 mars. Un jeu retardé après cette date peut faire baisser le cours de l'entreprise en bourse. La valeur la plus élevée du graphe est d'ailleurs en mars: 787 lancements.</li>
+                                      <li>On peut aussi supposer que les lancements d'avril permettront aux joueurs de profiter des jeux pendant toute la période de désoeuvrement estival!</li>
+                                      <li>N'oublions pas non plus que nos données s'arrêtent en avril 2019, ce qui risque de faire gonfler les valeurs des premiers mois de l'année en détriment des suivants, sans données pour 2019.</li>
+                                    </lu>
+                                  </div>
                                     <iframe
                                         frameborder=None,
                                         title="test iframe"
@@ -83,7 +93,7 @@
                                         src="../graphes/sorties_par_mois.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o3">
+                                <div class=small-section id="m2-o4">
                                     <h3>Plateformes compatibles</h3>
                                     <hr/>
                                     <p><span id='marge'/>Windows étant le système opérationnel le plus populaire, on a logiquement observé que les éditeurs et distributeurs font en sorte d'être compatibles avec lui. Cliquez sur le graphique pour voir quels OS coexistent le plus souvent dans la configuration des jeux.</p>
@@ -102,11 +112,11 @@
                                         src="../graphes/plateformes_c.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o4">
+                                <div class=small-section id="m2-o5">
                                     <h3>Limites d'âge</h3>
                                     <hr/>
-                                    <p><span id='marge'/>On peut observer qu'une toute petite partie des jeux a une limite d'âge (2%). Etant donné que 97% des 10-14 ans et 94% des 15-18% jouent à des jeux vidéos, on pourrait supposer que le marché doit faire en sorte d'être inclusif pour tous les âges.
-                                     Cependant on peut se demander à quel point les critères régissant ces limites d'âge sont pris en compte dans des jeux indépendants ou à faible budget dans une plateforme de distribution en ligne! Est-ce vraisemblable que seul 52% du 2% du total des jeux
+                                    <p><span id='marge'/>On peut observer qu'<b>une toute petite partie des jeux a une limite d'âge (2%)</b>. Etant donné que 97% des 10-14 ans et 94% des 15-18% jouent à des jeux vidéos, on pourrait supposer que le marché doit faire en sorte d'être <b>inclusif pour tous les âges</b>.
+                                     Cependant on peut se demander à quel point les <b>critères régissant ces limites d'âge sont pris en compte</b> dans le développement des jeux indépendants ou à faible budget dans une plateforme de distribution en ligne! Est-ce vraisemblable que seul 52% du 2% du total des jeux
                                      (donc environ 1% des jeux) soit réservé aux personnes majeures, sachant que la principale catégorie de jeux reste celle des jeux d'action? </p>
                                     <iframe
                                         frameborder=None,
@@ -125,7 +135,7 @@
 
                                 </div>
 
-                                <div class=small-section id="m2-o5">
+                                <div class=small-section id="m2-o6">
                                     <h3>Catégorisation des jeux</h3>
                                     <hr/>
                                     <p><span id='marge'/></p>
@@ -139,7 +149,7 @@
                                       distribuer leurs jeux, afin que le bouche à oreille s'assure de leur diffusion. </br>
                                       - la catégorie <b>"early access"</b> et son accroissement montre une des particularités des plateformes en ligne, qui est de fidéliser le joueur en lui proposant des avabtages, comme le fait de jouer avant le lancement officiel du jeu </br>
                                       - l'étiquette <b>"free to play"</b> montre bien l'importance grandissante des jeux gratuits sur tablette ou portable avec des achats intégrés. Ces jeux sont une des sources principales de revenus des éditeurs.</br>
-                                      - les avancées techniques sont aussi visibles avec l'apparition de la catégorie <b>VR</b>. Sa faible représentation montre bien que ces dispositifs peinent à trouver leur place dans le marché.
+                                      - les avancées techniques sont aussi visibles avec l'apparition de la catégorie <b>VR</b>. Sa faible représentation montre bien que ces dispositifs peinent à trouver leur place dans le marché.</br>
                                       - mention spéciale pour la catégorie <b>"female player"</b> qui, bien que peu représentée, fait son apparition en 2018 et nous permet de dire que le marché féminin reste stratégique (44% des joueurs sont des joueuses, cf les enquêtes du SELL en 2015), mais sous-estimé et mal connu des éditeurs.
 
                                     </p>
@@ -151,10 +161,10 @@
                                         src="../graphes/tags_par_annee.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o5">
-                                    <h3>Analyse 4</h3>
+                                <div class=small-section id="m2-o7">
+                                    <h3>Prix moyen des jeux avec les 1 - 100 tags les plus populaires</h3>
                                     <hr/>
-                                    <p><span id='marge'/>Premier graphe = 50 premiers tags les plus populaires, deuxième graphe = 50 - 100 tags les plus populaires</p>
+                                    <p><span id='marge'/>Ces deux graphiques vous permettront d'explorer plus en détail les tags préférés par les joueurs, et la corrélation de ces derniers aux prix des jeux. Ce qui en ressort, c'est une certaine uniformité: quelque soit la catégorie, les prix dépassent rarement les 20 euros. </p>
                                     <iframe
                                         frameborder=None,
                                         title="test iframe"
@@ -170,12 +180,13 @@
                                         src="../graphes/prix_par_tag50-100.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o5">
-                                    <h3>Analyse 5</h3>
-                                <div class=small-section id="m2-o6">
-                                    <h3>Plus gros éditeurs/distributeurs</h3>
+                                <div class=small-section id="m2-o8">
+                                    <h3>Editeurs/distributeurs les plus représentés</h3>
                                     <hr/>
-                                    <p><span id='marge'/>On peut voir ici que certains noms reviennent dans les deux catégories, comme ... ou ...</p>
+                                    <p><span id='marge'/>Ce graphique est à consulter en parallèle de celui qui représente les évaluations des joueurs. En effet, on pourrait penser que les entreprises ayant le plus de jeux sont aussi celles qui ont le plus de succès.</p>
+                                    <p><span id='marge'/>Cependant, en réalité, aussi bien Big Fish Games que Choice of Games favorisent <b>la quantité face à la qualité</b> des jeux, d'où leur position en tête de ce graphique. Big Fish crée des jeux simples, souvent en <b>free-to-play</b>, très divers et divertissants, mais sans grande prétension autre que de distraire et de fidéliser le joueur.
+                                    Choice of Games table sur le concept du jeu à <b>scénario à choix multiples</b> "dont vous êtes le héros": la diversité des récits est donc vitale pour maintenir l'intérêt du joueur, puisque le concept scénaristique est toujours le même.</p>
+                                    <p><span id='marge'/>Deux faits nous semblent intéressants: la <b>présence d'Ubisoft</b> parmi les plus gros éditeurs, qui montre sa volonté de faire partie du marché dématérialisé, hors consoles traditionnelles, et l'<b>absence de Valve</b>, pourtant auteur de Steam, et développeur de succès planétaires comme Half-life, Dota, ou l'incontournable Counter Strike.</p>
                                     <iframe
                                         frameborder=None,
                                         title="test iframe"
@@ -198,11 +209,11 @@
                                         src="../graphes/top10_ed_dev.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o7">
-                                    <h3>Evaluations</h3>
+                                <div class=small-section id="m2-o9">
+                                    <h3>Jeux les plus évalués</h3>
                                     <hr/>
-                                    <p><span id='marge'/>Voici les jeux qui ont reçu le plus d'évaluations au sein de la plateforme, ainsi que la répartition de ces dernières. Impossible de passer à côté de la grande disproportion entre le jeu
-                                    le plus noté (et donc sûrement les plus joué) et les autres. Alors que Steam facilite l'accès à de nombreux jeux indépendants, force est de constater que ses joueurs ont un jeu de prédilection. Ce graphique est
+                                    <p><span id='marge'/>Voici les jeux qui ont reçu le plus d'évaluations au sein de la plateforme, ainsi que la répartition de ces dernières. Impossible de passer à côté de la <b>grande disproportion</b> entre le jeu
+                                    le plus noté (et donc sûrement les plus joué) et les autres. On peut en déduire que Steam reste la plateforme qui <b>permet à Valve de diffuser ses propres créations (dont Counter Strike et Dota)</b>. Alors que Steam facilite l'accès à de <b>nombreux jeux indépendants</b>, force est de constater que ses joueurs ont un jeu de prédilection!
                                     </p>
                                     <iframe
                                         frameborder=None,
@@ -212,10 +223,10 @@
                                         src="../graphes/top40_ratings.html">
                                     </iframe>
                                 </div>
-                                <div class=small-section id="m2-o5">
-                                    <h3>Analyse 4</h3>
+                                <div class=small-section id="m2-10">
+                                    <h3>Jeux les mieux notés</h3>
                                     <hr/>
-                                    <p><span id='marge'/></p>
+                                    <p><span id='marge'/>De quoi vous donner des idées pour passer le temps à peu de frais! Sans rentrer dans les détails, on remarque qu'il s'agit surtout de <i>first-person shooters</i> et de RPG. Et Civilization, jamais démodé.</p>
                                     <iframe
                                         frameborder=None,
                                         title="test iframe"
@@ -223,11 +234,6 @@
                                         height="600"
                                         src="../graphes/top12_ratings_free.html">
                                     </iframe>
-                                </div>
-                                <div class=small-section id="m2-o5">
-                                    <h3>Analyse 4</h3>
-                                    <hr/>
-                                    <p><span id='marge'/></p>
                                     <iframe
                                         frameborder=None,
                                         title="test iframe"
@@ -237,12 +243,9 @@
                                     </iframe>
                                 </div>
 
-                                <div class=small-section id="m2-o6">
-                                    <h3>Conslusion</h3>
-                                <div class=small-section id="m2-o8">
-                                    <h3>autre</h3>
+                                <div class=small-section id="m2-11">
+                                    <h3>Merci pour votre lecture!</h3>
                                     <hr/>
-                                    <p><span id='marge'/>Finalement notre analyse fait ressortir des phénomènes pour la plupart (in)attendus blablabla ...</p>
                                 </div>
                             </div>
 
