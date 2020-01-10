@@ -21,16 +21,13 @@
             <group>
                 <ref name="name"/>
                 <ref name="release_date"/>
-                <ref name="english"/>
                 <ref name="developer"/>
                 <ref name="publisher"/>
                 <ref name="platforms"/>
                 <ref name="required_age"/>
                 <ref name="steamspy_tags"/>
                 <ref name="ratings"/>
-                <ref name="playtime"/>
-                <ref name="price"/>
-                <ref name="about_the_game"/>                
+                <ref name="price"/>               
             </group>
         </element>
     </define>
