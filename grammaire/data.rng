@@ -45,12 +45,6 @@
     </define>
     
     
-    <define name="english">
-        <element name="english">
-            <text/>
-        </element>
-    </define>
-    
     <define name="developer">
         <element name="developer">
             <text/>
@@ -94,30 +88,10 @@
         </element>
     </define>
     
-    <define name="playtime">
-        <element name="playtime">
-            <group>
-            <element name="average_playtime">
-                <text/>
-            </element>
-            <element name="median_playtime">
-                <text/>
-            </element>
-            </group>
-        </element>
-    </define>
-    
     <define name="price">
         <element name="price">
             <text/>
         </element>
-    </define>
-    
-    <define name="about_the_game">
-        <element name="about_the_game">
-            <text/>
-        </element>
-    </define>    
-      
+    </define>      
     
 </grammar>
