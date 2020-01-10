@@ -1,3 +1,0 @@
-Nous avons décidé de garder les informations qui nous paraissaient le plus susceptible de nous intéresser en tant que joueurs, notamment celles sur les caractéristiques du jeu (lancement, prix, limite d'âge...) et des interactions des autres joueurs avec ce dernier (tags, évaluations...).
-Le but étant d'avoir à la fois une vision d'ensemble sur la part de marché de la plateforme STEAM et et des descriptions plus précises des jeux que l'on peut y trouver.
- 

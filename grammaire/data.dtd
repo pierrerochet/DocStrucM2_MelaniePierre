@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT games (game+)>
+<!ELEMENT game (name, release_date, developer, publisher, platforms, required_age, steamspy_tags, ratings, price)>
+<!ATTLIST game id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT developer (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT platforms (#PCDATA)>
+<!ELEMENT required_age (#PCDATA)>
+<!ELEMENT steamspy_tags (#PCDATA)>
+<!ELEMENT ratings (positive?,negative?)>
+<!ELEMENT positive (#PCDATA)>
+<!ELEMENT negative (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
