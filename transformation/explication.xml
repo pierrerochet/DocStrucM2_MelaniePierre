@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="transformation_explication.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../transformation/transformation.xsl"?>
 
 <racine>
 
@@ -13,7 +13,7 @@
         <contenu>Tous deux séduits par l'idée de travailler sur le jeu vidéo, nous avons choisi de
             nous intéresser au marché en ligne de ce produit de loisir. En effet, étant donnée la
             tendance croissante à la dématérialisation des jeux, Steam s'avère être une source
-            actualisée, riche et complète de données sur le marché en ligne du jeu. Nous avons
+            actualisée, riche et complète de données sur le marché du téléchargement de jeux. Nous avons
             cherché, à travers le traitement, formatage et visualisation des données, à mettre en
             avant des caractéristiques intéressantes du secteur. </contenu>
         <lien>Cliquez pour accéder à la page d'analyses</lien>
@@ -29,7 +29,7 @@
         </rubrique>
         <rubrique>
             <titre-rubrique>Analyse des données</titre-rubrique>
-            <contenu>Grâce aux librairies pandas, matplotlib et mpld3, nous avons pu sélectionner et
+            <contenu>Grâce aux librairies pandas et plotly, nous avons pu sélectionner et
                 croiser les informations contenues dans le jeu de données, pour ensuite en faire des
                 graphiques parlants.</contenu>
         </rubrique>

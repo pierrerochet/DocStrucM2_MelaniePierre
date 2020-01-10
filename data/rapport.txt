@@ -1,0 +1,1 @@
+Nous avons décidé de garder les informations qui nous paraissaient le plus susceptible de nous intéresser en tant que joueurs, notamment celles sur les caractéristiques du jeu (lancement, prix, limite d'âge...) et des interactions des joueurs avec ce dernier (tags, évaluations, temps de jeu...). 
